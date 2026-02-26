@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <span>Раздел: Тип 1</span>
+        </div>
+        
+        <div class="nav-right">
+            <span>Выбрано пунктов: 1</span>
+            <span>Общее значение: 40</span>
+        </div>
+    </nav>
+
+    <main>
+        <aside>
+            <form>
+                <div>
+                    <input type="radio" id="group1" name="group" checked>
+                    <label for="group1">Тип 1</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="group2" name="group">
+                    <label for="group2">Тип 2</label>
+                </div>
+            </form>
+        </aside>
+
+        <article>
+            <form action="/submit-form" method="post">                
+                <div>
+                    <input type="checkbox" id="item1" name="item" value="10" checked>
+                    <label for="item1">Item 1</label><br>
+                    <span>Value: 10</span>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="item2" name="item" value="20">
+                    <label for="item2">Item 2</label><br>
+                    <span>Value: 20</span>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="item3" name="item" value="30">
+                    <label for="item3">Item 3</label><br>
+                    <span>Value: 30</span>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="item4" name="item" value="40">
+                    <label for="item4">Item 4</label><br>
+                    <span>Value: 40</span>
+                </div>
+            </form>
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
