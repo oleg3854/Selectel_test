@@ -1,0 +1,56 @@
+/* index */
+
+.greet {
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    border: 2px dashed black;
+}
+
+.greet_p,
+.greet_a {
+    display: block;
+    text-align: center;
+}
+
+/* index2 */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    border: 1px solid black;
+    border-bottom: 0px;
+}
+
+nav span {
+    margin-right: 10px;
+}
+
+main {
+    display: flex;
+    border: 1px solid black;
+}
+
+aside {
+    width: 10%;
+    padding: 15px;
+}
+
+article {
+    width: 100%;
+    padding: 15px;
+    
+    background: #d9d9d9;
+    border-left: 1px solid black;
+}
+
+article div {
+    margin-bottom: 10px;
+}
+
+article span {
+    margin-left: 25px;
+    color: #828282;
+}
